@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ESS_UAT">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>13.0.526</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="Reporting_prod_commerce_db">
+      <ObjectId>11</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="Reporting_prod_fulfilment_db">
+      <ObjectId>13</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="stage_cmsa_db">
+      <ObjectId>5</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="stage_cmsauth_db">
+      <ObjectId>7</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="stage_cmsb_db">
+      <ObjectId>6</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="stage_commerce_db">
+      <ObjectId>8</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="stage_fulfilment_db">
+      <ObjectId>9</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="uat_cms_db">
+      <ObjectId>10</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="uat_cmsauth_db">
+      <ObjectId>12</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="uat_commerce_db">
+      <ObjectId>14</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="uat_fulfilment_db">
+      <ObjectId>15</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="17" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="18" parent="4" name="dbo">
+      <ObjectId>1</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="19" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="20" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="21" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="22" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="23" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="24" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="25" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="26" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="27" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="28" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="29" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+  </database-model>
+</dataSource>

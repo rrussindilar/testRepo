@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="ESS_UAT" uuid="4b25edc7-c574-4216-b4e3-d6ca3e30a1a5">
+      <database-info product="Microsoft SQL Server" version="13.00.5264" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.4 for SQL Server" driver-version="7.4.1.0" family="MSSQL" exact-version="13.0.526">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>svctremend_uat</user-name>
+      <introspection-schemas>*:*|@:|Reporting_prod_commerce_db:|Reporting_prod_fulfilment_db:|model:|msdb:|stage_cmsa_db:|stage_cmsauth_db:|stage_cmsb_db:|stage_commerce_db:|stage_fulfilment_db:|tempdb:|uat_cms_db:|uat_cmsauth_db:|uat_commerce_db:|uat_fulfilment_db:</introspection-schemas>
+    </data-source>
+  </component>
+</project>
